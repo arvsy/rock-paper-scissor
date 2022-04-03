@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace; 
+    background-image: url("https://www.baltana.com/files/wallpapers-16/4K-Plain-Blurred-Background-Wallpaper-40969.jpg");
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+}
+.horizontal1{
+    text-align: center;
+    padding: 80px 0;
+}
+.horizontal1 h1{
+    color :#d9b48fff;
+    font-size: 60px;
+}
+.horizontal1 h3{
+    font-size: 30px;
+    padding-top: 30px;
+    color: #dae7f8;
+}
+.horizontal2{
+    display: flex;
+}
+.horizontal2 div{
+    height: 100px;
+    flex: 1 1 0%;
+}
+.container .horizontal2 .one{
+    text-align: right;
+}
+.container .horizontal2 .vertical2 .v2h1{
+    flex: 1.5 1 0%;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    color: #dae7f8;
+}
+.vertical2{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.button{
+    padding: 20px;
+    margin-block: 20px;
+    background-color: transparent;
+    color: #d9b48fff;
+    width: 120px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-family: 'Shizuru', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.button:hover{
+    cursor: pointer;
+    border: 1px solid #149cc5;
+}
+.v2h2{
+    background: #149cc5;
+    border: 1px solid #000000;
+    min-width: 20vw;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transform: translateX(-50px);
+    text-align: center;
+    padding: 8px 0px;
+}
+.v2h2:hover{
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+.v2h2 a{
+    text-decoration: none;
+    color: #000000;
+}
+.vertical3{
+    color: #d9b48fff;
+    font-weight: bolder;
+    display: flex;
+    flex-flow: column;
+}
+.vertical3 h3{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    border-bottom: 1.5px solid #d9b48fff;
+    width: 400px;
+}
+.para{
+    margin-block: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.userscore{
+    display: flex;
+}
+.userscoredisplay{
+    margin-left: 10px;
+}
